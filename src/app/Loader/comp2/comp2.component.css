@@ -1,0 +1,40 @@
+#load{
+    position: absolute;
+    animation: spin 2s  linear infinite;
+    left: 100%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    border: 13px solid #1ee9d8;
+    border-top: 16px solid #1e87c4;
+    border-radius: 50%;
+    z-index: 1 ;
+    margin: -75px 0 0 -75px;
+  }
+
+.mat-progress-spinner{
+       bottom: -50px;
+}
+
+  @keyframes spin{
+    0% { transform:rotate(0deg);}
+    100% { transform:rotate(360deg);
+    }
+  
+  
+  }
+
+  .loader {
+    width: 93.9vw;
+    height: 72vh;
+    background: lightgray;
+   position: absolute;
+  }
+  
+  .loader span {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

@@ -1,0 +1,200 @@
+{
+  "signupUsers": [
+    {
+      "email": "anil@gmail.com",
+      "name": "anil shaikh",
+      "password": "anil@786",
+      "id": 1
+    },
+    {
+      "email": "nikita@gmail.com",
+      "name": "nikita chauhan",
+      "password": "nikita@123",
+      "id": 7
+    },
+    {
+      "email": "deepak@gmail.com",
+      "name": "deepak rajbhar",
+      "password": "deepak@123",
+      "id": 8
+    },
+    {
+      "email": "Aarti@gmail.com",
+      "name": "aarti arora",
+      "password": "aarti@786",
+      "id": 9
+    },
+    {
+      "email": "jaydev@gmail.com",
+      "name": "jaydev unadkat",
+      "password": "anil@786",
+      "id": 10
+    },
+    {
+      "fullname": "shukla",
+      "email": "suraj@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 11
+    },
+    {
+      "fullname": "shukla",
+      "email": "suraj@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 12
+    },
+    {
+      "email": "suraj@gmail.com",
+      "password": "123",
+      "fullname": "suraj",
+      "number": 123,
+      "role": "Admin",
+      "id": 13
+    },
+    {
+      "fullname": "SSSS",
+      "email": "SSSS",
+      "password": "123",
+      "mobile": 123,
+      "id": 14
+    },
+    {
+      "fullname": "SSSS",
+      "email": "SSSS",
+      "password": "123",
+      "mobile": 123,
+      "id": 15
+    },
+    {
+      "fullname": "suraj",
+      "email": "dinesh@gmail.com",
+      "password": "123",
+      "mobile": 1234567890,
+      "id": 16
+    },
+    {
+      "fullname": "suraj",
+      "email": "dinesh@gmail.com",
+      "password": "123",
+      "mobile": 1234567890,
+      "id": 17
+    },
+    {
+      "fullname": "suraj",
+      "email": "jay@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 18
+    },
+    {
+      "fullname": "suraj",
+      "email": "jay@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 19
+    },
+    {
+      "fullname": "shani",
+      "email": "shani@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 20
+    },
+    {
+      "fullname": "shani",
+      "email": "shani@gmail.com",
+      "password": "123",
+      "mobile": 123,
+      "id": 21
+    },
+    {
+      "fullname": "dfdsdfdsd",
+      "email": "test@gmail.com",
+      "password": "123",
+      "mobile": 98765456,
+      "id": 22
+    },
+    {
+      "fullname": "dfdsdfdsd",
+      "email": "test@gmail.com",
+      "password": "123",
+      "mobile": 98765456,
+      "id": 23
+    },
+    {
+      "fullname": "oiutgtuhgh",
+      "email": "testioo@gmil.com",
+      "password": "123",
+      "mobile": 98767666,
+      "id": 24
+    },
+    {
+      "fullname": "oiutgtuhgh",
+      "email": "testioo@gmil.com",
+      "password": "123",
+      "mobile": 98767666,
+      "id": 25
+    },
+    {
+      "fullname": "khhgh",
+      "email": "test@gmail.com",
+      "password": "123",
+      "mobile": 98766766,
+      "id": 26
+    },
+    {
+      "fullname": null,
+      "email": null,
+      "password": null,
+      "mobile": null,
+      "hobby": null,
+      "id": 27
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "name": "Jay",
+      "work": "Angularjs developer"
+    },
+    {
+      "id": 2,
+      "name": "bhavesh",
+      "work": " Nodejs developer"
+    },
+    {
+      "id": 3,
+      "name": "Suraj",
+      "work": "Reactjs developer"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "body": "Prachi",
+      "no": 121
+    },
+    {
+      "id": 2,
+      "body": "Deepak",
+      "no": 222
+    },
+    {
+      "id": 3,
+      "body": "Nikita",
+      "no": 323
+    },
+    {
+      "id": 4,
+      "body": "Bhavesh",
+      "no": 4234
+    },
+    {
+      "id": 5,
+      "body": "Suraj",
+      "no": 5234
+
+    }
+  ]
+}

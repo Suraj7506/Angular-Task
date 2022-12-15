@@ -1,0 +1,87 @@
+<mat-toolbar color="primary">
+  Data &nbsp;
+  <button mat-raised-button (click)="api.show()">
+    Show Loader
+</button>
+&nbsp;
+
+<button mat-raised-button (click)="api.hide()">
+  Hide Loader
+</button>
+
+&nbsp;
+
+<button mat-raised-button (click)="fetchUser()">
+  Call API
+</button>
+
+&nbsp;
+
+<button mat-raised-button (click)="showdata()">
+  Show Id and Name
+</button>
+
+
+
+&nbsp;
+
+<button mat-raised-button (click)="show()">  Show Name and Work
+</button>
+
+&nbsp;
+
+<button mat-raised-button (click)="destroy()">
+  Destroy Data
+</button>
+
+</mat-toolbar>
+
+<br>
+<!-- <div style="position:relative"> -->
+  <div class="loader" *ngIf="loading$ | async">
+    <span>
+    <mat-progress-spinner [mode]="'indeterminate'" >
+    
+    </mat-progress-spinner>
+  </span>
+  <!-- </div> -->
+</div>
+
+
+  <br>
+<br>
+<!-- {{users | json}} -->
+<!-- <div *ngFor="let user of users">
+  <ul>
+<li>{{user?.id}}</li>
+<li>{{user?.name}}</li>
+
+  </ul>
+</div> -->
+
+<h2 *ngFor="let data of displayData">
+  {{data.id}} {{data.body}}
+</h2>
+
+<h3 *ngFor="let bhavesh of suraj">
+  {{bhavesh.name}} - {{bhavesh.work}}
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+

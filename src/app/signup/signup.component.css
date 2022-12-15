@@ -1,0 +1,48 @@
+.card{
+    /* border: none; */
+    width: auto;
+    padding: 40px;
+    /* position: absolute; */
+    /* top: 70%; */
+    /* margin-bottom: 18px; */
+    
+    
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background: hsla(205, 46%, 30%, 1); 
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+
+}
+
+.card h1,
+h6 {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+.container{
+    margin-bottom: 10%;
+}
+#cont{
+    margin-left: 25%;
+}
+
+.contain{
+    width: 250px;
+    margin: 5% auto;
+    background-color: white;
+    margin-right: 60%;
+    content: center;
+    color: black;
+}
+
+#secondbtn{
+    margin-left: 250px;
+}
+
+#login{
+    cursor: pointer;
+}
+

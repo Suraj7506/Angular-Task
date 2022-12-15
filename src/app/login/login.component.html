@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h6>Please Enter Email & Password !!</h6>
+                </div>
+                <form>
+
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1" >Email address</label>
+                          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br>
+                          <span class="text-danger" *ngIf="loginForm.controls['email'].touched && loginForm.hasError('required','email')">Email Id is required</span>
+                        
+                        
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                          <span class="text-danger" *ngIf="loginForm.controls['password'].touched && loginForm.hasError('required','password')">Password is required</span>
+
+                        
+                        </div>
+                        
+                        <button type="submit" [disabled]="!loginForm.valid"  class="btn btn-primary mb-3">Login</button>
+                        <button type="submit" [disabled]="!loginForm.valid"  class="btn btn-primary mb-3" id="btn2" (click)="Clear()">Clear</button>
+                     
+                    
+                    </form>
+                   <a class="bottom"  style="color: #fff ; margin: top 10px;" routerLink="/signup"> New User? Click to SignUp!!</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
